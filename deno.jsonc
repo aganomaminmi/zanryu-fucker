@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noUnusedParameters": true
+  },
+  "lint": {
+    "files": {
+      "include": [],
+      "exclude": []
+    },
+    "rules": {}
+  },
+  "fmt": {
+    "files": {
+      "include": [],
+      "exclude": []
+    },
+    "options": {}
+  },
+  "tasks": {
+    "fujii": "deno run -A src/index.ts",
+    "setup": "PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@16.2.0/install.ts"
+  }
+}
