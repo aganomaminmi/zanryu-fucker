@@ -21,7 +21,7 @@
     "options": {}
   },
   "tasks": {
-    "fujii": "deno run -A src/index.ts",
+    "run": "deno run -A src/index.deno.js",
     "setup": "PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@16.2.0/install.ts"
   }
 }
