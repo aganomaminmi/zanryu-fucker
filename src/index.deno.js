@@ -17,7 +17,6 @@ let faculty = env["FACULTY"] ?? 0;
 let grade = env["GRADE"] ?? 0;
 
 const args = parse(Deno.args)
-console.log(args)
 if (args.reason) {
   studyReason = args.reason
 }
